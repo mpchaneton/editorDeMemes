@@ -1,0 +1,76 @@
+.editor {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  box-shadow: 4px 15px 64px 13px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+}
+
+.instrucciones {
+  text-align: start;
+  padding: 2%;
+  margin: 2%;
+  border: #282c34 solid 2px;
+  width: fit-content;
+}
+
+
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  border: #282c34 solid 1px;
+  width: 70%;
+  overflow-x: scroll;
+  cursor: pointer;
+  padding: 2%;
+  margin: 2%;
+}
+
+.paso1 {
+  padding: 2%;
+  margin: 2%;
+}
+
+.paso2 {
+  padding: 2%;
+  margin: 2%;
+}
+
+.paso3 {
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#exportar {
+  position: relative;
+  border: #282c34 solid 1px;
+  width: 300px;
+  height: 300px;
+
+}
+
+.textoMeme {
+  position: absolute;
+  font-size: larger;
+  font-weight: bold;
+  padding: 5%;
+  overflow: auto;
+}
+
+
+.imgExportar {
+  width: 100%;
+  height: 100%;
+}
+
+
+.btnDescargar {
+  display: flex;
+  margin-top: 2%;
+  width: 25%;
+  justify-content: center;
+}
